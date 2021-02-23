@@ -87,7 +87,8 @@ header {
 }
 
 #ip{
-    width: 280px;
+    width: auto;
+    min-width: 280px;
     height: 180px;
     margin: 50px 0px;
     padding: 30px;
