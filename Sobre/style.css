@@ -50,8 +50,7 @@ header {
 .menu a {
     margin-left: 30px;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     color: #fff;
     transition: 0.25s;
     position: relative;
@@ -115,6 +114,12 @@ header {
     height: 200px;
     border-radius: 50%;
     box-shadow: 0px 0.5px 5px rgb(48, 48, 59);
+    transition: 0.3s;
+}
+
+.foto-matheus:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0.5px 10px rgb(48, 48, 59);
 }
 
 footer{
@@ -128,17 +133,15 @@ footer{
 footer a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     transition: 0.3s;
 }
 
 .linkFooter:hover{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 footer p{ 
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
 }

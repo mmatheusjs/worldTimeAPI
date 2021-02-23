@@ -1,3 +1,4 @@
+var header = ('Access-Control-Allow-Origin: *'); 
 const url = "https://worldtimeapi.org/api/timezone/";
 const paises = [];
 const container = document.getElementById('container_cards');
@@ -41,7 +42,7 @@ async function loadPaisesDetalhes(pais, index){
             </div>
 
             <div class="fuso">
-                <p>Fuso Horário</p>
+                <p>UTC ${detalhe.utc_offset}</p>
             </div>
 
         </div> `  
